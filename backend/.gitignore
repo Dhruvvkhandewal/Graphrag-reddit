@@ -1,0 +1,23 @@
+# Secrets / local config
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Local stores (never commit data dumps or binaries)
+.chroma/
+*.sqlite3
+data/
+*.dump
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

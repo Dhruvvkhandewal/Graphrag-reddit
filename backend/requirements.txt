@@ -1,0 +1,26 @@
+# ---- Core runtime ----
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+
+# ---- Reddit ingestion ----
+praw==7.8.1
+
+# ---- LLM (Gemini 2.5 Flash) ----
+google-generativeai==0.8.3
+
+# ---- Graph store ----
+neo4j==5.27.0
+
+# ---- Vector store + embeddings ----
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# ---- Resilience / utils ----
+tenacity==9.0.0
+numpy==1.26.4
+
+# ---- Dev / test ----
+pytest==8.3.4
